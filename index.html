@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Hello my cutie</title>
+    <link rel="shortcut icon" href="photo/we2.png"  type="image/x-icon">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #66c7ea , #6ce608);
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .login-container {
+      background-image: url("photo/we2.png");
+      background-size: cover;
+      padding: 40px;
+      border-radius: 15px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+      width: 300px;
+      text-align: center;
+    }
+
+    .login-container h2 {
+      margin-bottom: 20px;
+      color: hsl(175, 91%, 47%);
+      
+    }
+
+    .login-container input {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+      border: none;
+      border-radius: 8px;
+      background: #f1f1f1;
+      font-size: 14px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+    }
+
+    .login-container input:focus {
+      outline: none;
+      background: #df4204;
+    }
+
+    .login-container button {
+      width: 100%;
+      padding: 12px;
+      background: linear-gradient(135deg, #71ea66, #0ab3c6);
+      border: none;
+      border-radius: 8px;
+      color: hsl(0, 94%, 51%);
+      font-size: 16px;
+      cursor: pointer;
+      transition: 0.3s;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+    }
+
+    .login-container button:hover {
+      background: linear-gradient(135deg, #0ab3c6, #71ea66);
+    }
+
+    .login-container p {
+      margin-top: 15px;
+      font-size: 13px;
+      color: #555;
+    }
+
+    .login-container a {
+      color: #667eea;
+      text-decoration: none;
+    }
+    
+  </style>
+</head>
+<body>
+  <div class="login-container">
+    <h2>Love Form </h2>
+    <form>
+      <input type="text" placeholder="Username" required>
+      <input type="password" placeholder="Password" required>
+      <button><a href="Login.html">Log in</a></button>
+      
+    </form>
+    <p>Forgot your password? <a href="#">Click here</a></p>
+  </div>
+</body>
+</html>
